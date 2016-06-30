@@ -2,7 +2,7 @@
 var ProductList = require('../../lib/productlist.js');
 
 
-function Steps() {
+function Steps_selectProduct() {
 
       var emptyProductList = undefined, 
         productsTable = [];
@@ -77,4 +77,4 @@ function Steps() {
 
 }
 
-module.exports = Steps;
+module.exports = Steps_selectProduct;
